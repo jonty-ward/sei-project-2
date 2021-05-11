@@ -210,7 +210,7 @@ We did the same for Quiz 2 but the choice buttons did not need to be randomized 
 We did not have time for a third quiz because we needed to begin styling during the second day.
 The Quiz1End/Quiz2End components are the results page. It shows the player's final quiz score and uses conditional rendering to show a gif based on this score. There are four different gifs for each score range: 0-5, 6-10, 11-15 & 16-20. As an extra page, we added a link in the Menu to the API we used.
 
-### Quiz 2 (night 1 & day 2)
+## Quiz 2 (night 1 & day 2)
 
 After setting up the first quiz together, we decided to begin the styling as soon as possible because we were tight for time. We decided that I would continue setting up Quiz2 and Justine would begin the styling. We decided to use Bulma for this project.
 For the second quiz, I followed a similar logic to quiz one. The design of the quiz was more straightforward than the initial quiz because the quiz had only three possible answers- the three films in the trilogy. This eliminated the need to have the buttons appearing in a different order. 
@@ -233,3 +233,33 @@ On day 2 we focused on applying the styling to quiz 2, and making adjustments to
 With the styling on day 2 We had a lot of trouble with flexbox on the quiz pages, specifically with the Right/Wrong counter beside the quiz questions. When I opened the page on his PC which was a smaller size than mine, the placement of several divs and the quotes box were severely out of place. We had to find a way to make the page render the elements in sensible positions regardless of screen size so that they wouldn't be hiding behind other elements or be melded at the top of the page with the navbar. Justine had to use a lot of time figuring out margins and flexboxing the counter. It was styled so that when the screen reached a certain width, the counters would change positions from the right to the left of the screen as space would run out on the right when the browser was resized smaller. This was very fiddly, and as a result we have only managed to make the quiz playable on differing laptop and desktop sizes. 
 
 ## Final project walkthrough
+
+Homepage
+![homepage](readme-components/final-walkthrough1.jpg)
+
+Quiz 1
+![homepage](readme-components/final-walkthrough2.jpg)
+
+Quiz 2
+![homepage](readme-components/final-walkthrough3.jpg)
+
+Quiz-end (gif for 0-5 score)
+![homepage](readme-components/final-walkthrough4.jpg)
+
+
+# Wins, hurdles and unsolved problems
+## Wins
+Justine and I were on the same page throughout the whole hackathon. We had a great dynamic and great communication throughout. I felt more confident doing this project knowing that we both knew what we wanted to do and if I was confused about anything, I could easily ask or voice my concerns about what certain functions were doing or how we could achieve certain things. Whenever we encountered a hurdle, we got over it quicker than I expected we would and using React for this project was actually more straightforward than I expected also.
+It was a great experience for my first project using React. Overall, my first time pair coding was very successful and made me more confident working with other people on projects. Besides one or two flexbox issues, the styling process was also smooth and the look of the app came out better than I had expected.
+## Hurdles
+The main problem from the API was that we had to wait several times in 10-minute instances for the request load to reset because the API only gives authenticated users access to 100 requests every 10 minutes. Because there were two of us, we did not want to overload the request limit by having twice as many requests than was necessary. We decided that only I would run the localhost on his browser and then use screen share so we both could see the changes to the app. I also created several accounts, and I created a small function to alternate the access token we were using to speed along the testing and development. This has been removed from the codebase for deployment as we moved the access token into a .env file. 
+
+Another problem with the API was that whilst the character endpoint included all characters from the movie AND books, the quotes endpoint were quotes only from the movie trilogy. This meant that the right answer for each quote was most likely very obvious because the quotes would usually be from a main character and the randomized wrong answers were usually book characters that have no part in the films.
+## Unsolved problems
+The responsiveness of the app is definitely a problem that I would want to fix. The browser also renders the pages very slowly, rendering the page contents first then slowly loading the background image bit by bit.
+
+Extra features/improvements
+* Making another quiz, maybe a quiz for each movie
+* Responsive navbar
+* Making the app mobile-friendly
+
