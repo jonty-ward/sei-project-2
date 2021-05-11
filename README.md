@@ -258,7 +258,7 @@ Another problem with the API was that whilst the character endpoint included all
 ## Unsolved problems
 The responsiveness of the app is definitely a problem that I would want to fix. The browser also renders the pages very slowly, rendering the page contents first then slowly loading the background image bit by bit.
 
-## Extra features/improvements
+# Extra features/improvements
 * Making another quiz, maybe a quiz for each movie
 * Responsive navbar
 * Making the app mobile-friendly
