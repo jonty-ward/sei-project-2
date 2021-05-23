@@ -248,7 +248,8 @@ Quiz-end (gif for 0-5 score)
 
 
 # Wins, hurdles and unsolved problems
-## Wins
+
+## Wins
 Justine and I were on the same page throughout the whole hackathon. We had a great dynamic and great communication throughout. I felt more confident doing this project knowing that we both knew what we wanted to do and if I was confused about anything, I could easily ask or voice my concerns about what certain functions were doing or how we could achieve certain things. Whenever we encountered a hurdle, we got over it quicker than I expected we would and using React for this project was actually more straightforward than I expected also.
 It was a great experience for my first project using React. Overall, my first time pair coding was very successful and made me more confident working with other people on projects. Besides one or two flexbox issues, the styling process was also smooth and the look of the app came out better than I had expected.
 ## Hurdles
