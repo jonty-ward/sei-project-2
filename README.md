@@ -268,5 +268,5 @@ The responsiveness of the app is definitely a problem that I would want to fix. 
 * I learnt the importance to teamwork, and how to work productively as a pair
 * I learnt how to consume public APIs
 * This was my first project using React Hooks, and so the project gave me a good opportunity to lear about React Hooks 
-* I leanr how to use the doccumentation to help implement CSS frameworks
+* I learnt how to use the doccumentation to help implement CSS frameworks
 
